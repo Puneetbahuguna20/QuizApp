@@ -2,8 +2,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
-import BackendConnectionTest from "@/components/BackendConnectionTest";
-import AuthConnectionTest from "@/components/AuthConnectionTest";
 
 const Home = () => {
   return (
@@ -42,12 +40,7 @@ const Home = () => {
         </CardContent>
       </Card>
 
-        {/* Test Components */}
-        <div className="space-y-8">
-          <h2 className="text-2xl font-bold text-center text-white">Backend Connection Tests</h2>
-          <BackendConnectionTest />
-          <AuthConnectionTest />
-        </div>
+
       </div>
     </main>
   );
